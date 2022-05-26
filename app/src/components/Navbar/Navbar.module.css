@@ -28,6 +28,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  padding-top: 10px;
+  padding-left: 0px;
 }
 
 .leftNavbar {
@@ -43,10 +46,29 @@
   cursor: pointer;
   border: none;
   /* padding: 0px 15px; */
-  margin: 15px;
+  /* margin: 15px; */
   margin-right: 290px;
   color: #48a9b5;
   font-size: 14px;
+  position: absolute;
+  left: 390px;
+}
+
+.personalButton {
+  background-color: #b6b6b6;
+  box-shadow: 0 2.5px 10px rgba(0 0 0 / 15%);
+  border-radius: 25px;
+  width: 128px;
+  height: 27px;
+  cursor: pointer;
+  border: none;
+  /* padding: 0px 15px; */
+  /* margin: 15px; */
+  /* margin-right: 290px; */
+  color: #367f88;
+  font-size: 14px;
+  position: absolute;
+  left: 280px;
 }
 
 .navbarRightText {

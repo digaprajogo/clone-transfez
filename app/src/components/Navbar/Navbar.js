@@ -11,6 +11,7 @@ function Navbar() {
           alt="Transfez"
           width="184px"
         />
+        <button className={`${styles.personalButton} ${styles.gothamMedium}`}>PERSONAL</button>
         <button className={`${styles.bisnisButton} ${styles.gothamMedium}`}>BISNIS</button>
         <div className={styles.rightNavbar}>
           <div className={`${styles.gothamMedium} ${styles.navbarRightText} ${styles.pointer}`}>
