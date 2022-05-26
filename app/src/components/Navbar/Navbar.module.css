@@ -1,0 +1,91 @@
+@font-face {
+  font-family: GothamMedium;
+  src: url(/public/assets/otf/GothamMedium.otf);
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+  /* padding: 0 15px; */
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+  /* border: 1px solid; */
+  /* background-color: #e237378c; */
+}
+
+.gothamMedium {
+  font-family: GothamMedium;
+}
+
+.navbar {
+  margin: auto;
+  max-width: 1140px;
+  /* background-color: #154079a1; */
+  padding: 8px 0;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftNavbar {
+  margin-left: 10px;
+}
+
+.bisnisButton {
+  background-color: #fff;
+  box-shadow: 0 2.5px 10px rgba(0 0 0 / 15%);
+  border-radius: 25px;
+  width: 128px;
+  height: 27px;
+  cursor: pointer;
+  border: none;
+  /* padding: 0px 15px; */
+  margin: 15px;
+  margin-right: 290px;
+  color: #48a9b5;
+  font-size: 14px;
+}
+
+.navbarRightText {
+  color: #48a9b5;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.rightNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid; */
+}
+
+.signInButton {
+  color: #166f7b;
+  border: none;
+  background-color: #ffd27c;
+  font-size: 14px;
+  /* padding: 0px 15px; */
+  width: 128px;
+  height: 28px;
+  /* margin: 15px; */
+  border-radius: 25px;
+  cursor: pointer;
+  margin-right: 28px;
+  box-shadow: rgb(160 160 160) -1px 7px 5px -4px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.iconGlobe {
+  margin-right: 10px;
+}
+
+.iconDown {
+  margin-right: 10px;
+}
